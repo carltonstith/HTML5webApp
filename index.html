@@ -3290,16 +3290,17 @@
 	</footer>
 </div><!-- page -->
 
-<div data-role="page" id="noscript">
+<div data-role="page" id="optgroup">
 	<header data-role="header">
 		<div class="custom_header">
-		<h1>noscript</h1>
+		<h1>optgroup</h1>
 		</div>
 		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
 	</header>
 
 	<div data-role="content">
-		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
+		<p>The <code>optgroup</code> element represents a group of <code>option</code> elements with a common label. The element's group of <code>option</code> elements consists of the <code>option</code> elements that are children of the <code>optgroup</code> element.</p>
+		<p>When showing option elements in select elements, user agents should show the <code>option</code> elements of such groups as being related to each other and separate from other <code>option</code> elements.</p>
 	</div>
 	
 	<!-- button -->
@@ -3309,77 +3310,18 @@
 	</div>
 	<div data-role="popup" id="popupPaded" class="ui-content">
 		<code>
-			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
-		</code>
-	</div>
-	<!-- end button -->
-	
-	<footer data-role="footer" data-position="fixed">
-		<nav data-role="navbar">
-			<ul>
-				<li><a href="#home" data-icon="home">Home</a></li>
-				<li><a href="#" data-icon="gear">Website</a></li>
-				<li><a href="#" data-icon="info">Contact</a></li>
-			</ul>
-		</nav>
-	</footer>
-</div><!-- page -->
-
-<div data-role="page" id="noscript">
-	<header data-role="header">
-		<div class="custom_header">
-		<h1>noscript</h1>
-		</div>
-		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
-	</header>
-
-	<div data-role="content">
-		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
-	</div>
-	
-	<!-- button -->
-	<br>
-	<div align="center">
-		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
-	</div>
-	<div data-role="popup" id="popupPaded" class="ui-content">
-		<code>
-			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
-		</code>
-	</div>
-	<!-- end button -->
-	
-	<footer data-role="footer" data-position="fixed">
-		<nav data-role="navbar">
-			<ul>
-				<li><a href="#home" data-icon="home">Home</a></li>
-				<li><a href="#" data-icon="gear">Website</a></li>
-				<li><a href="#" data-icon="info">Contact</a></li>
-			</ul>
-		</nav>
-	</footer>
-</div><!-- page -->
-
-<div data-role="page" id="noscript">
-	<header data-role="header">
-		<div class="custom_header">
-		<h1>noscript</h1>
-		</div>
-		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
-	</header>
-
-	<div data-role="content">
-		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
-	</div>
-	
-	<!-- button -->
-	<br>
-	<div align="center">
-		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
-	</div>
-	<div data-role="popup" id="popupPaded" class="ui-content">
-		<code>
-			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
+			&lt;label for="country"&gt;Country&lt;/label&gt;<br>
+			&lt;select name="country" id="country"&gt;<br>
+			&lt;optgroup label="Europe"&gt;
+        		&lt;option value="UK"&gt;UK&lt;/option&gt;<br>
+        		&lt;option value="Germany"&gt;Germany&lt;/option&gt;<br>
+        		&lt;option value="France"&gt;France&lt;/option&gt;<br>
+			&lt;/optgroup&gt;
+			&lt;optgroup label="North America"&gt;
+        		&lt;option value="United States"&gt;United States&lt;/option&gt;<br>
+        		&lt;option value="Canada"&gt;Canada&lt;/option&gt;<br>
+			&lt;/optgroup&gt;
+			&lt;/select&gt;
 		</code>
 	</div>
 	<!-- end button -->
@@ -3394,6 +3336,166 @@
 		</nav>
 	</footer>
 </div><!-- page --><!-- end O page -->
+
+<div data-role="page" id="p">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>p</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>p</code> element represents a paragraph.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;p&gt;This is an example of the p tag.&lt;/p&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="param">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>param</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>param</code> element defines parameters for plugins invoked by object elements. It does not represent anything on its own.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;object&gt;<br>
+        	&lt;param name="movie" value="http://www.youtube.com/v/XZ5TajZYW6Y?fs=1&amp;hl=en_GB"&gt;&lt;/param&gt;<br>
+        	&lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;<br>
+			<br>
+        	&lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt;<br>
+        	&lt;embed src="http://www.youtube.com/v/XZ5TajZYW6Y?fs=1&amp;hl=en_GB" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="390"&gt;&lt;/embed&gt;<br>
+			<br>
+			&lt;/object&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="pre">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>pre</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>pre</code> element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;p&gt;The code for a basic JavaScript message is:&lt;/p&gt;<br>
+			<br>
+			&lt;pre&gt;<br>
+				&lt;script&gt;alert("hello world");&lt;/script&gt;<br>
+			&lt;/pre&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="progress">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>progress</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents the completion progress of a task. Progress may be either indeterminate — meaning it is unclear how much work remains before the task is complete (e.g., the task is waiting for a response from a remote host) — or a numeric value between 0 and a given maximum, explicitly specifying the fraction of work that has so far been completed.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;section&gt;<br>
+ 				&lt;p&gt;Progress: &lt;progress&gt; &lt;span id="p"&gt;0&lt;/span&gt;% &lt;/progress&gt; &lt;/p&gt;<br>
+				<br>
+ 				&lt;script&gt;<br>
+  				var progressBar = document.getElementById('p');<br>
+  				function updateProgress(newValue) {<br>
+        			progressBar.textContent = newValue;<br>
+  				}<br>
+				&lt;/script&gt;<br>
+			&lt;/section&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --><!-- end P page -->
 
 
 </body>
