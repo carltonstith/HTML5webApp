@@ -1,0 +1,3400 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Encyclopedia</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<style>
+		body { 
+			background: url(http://subtlepatterns.com/patterns/classy_fabric.png);
+		}
+
+		h1 {
+			font-family: "Oswald", sans-serif, bold; 
+			font-size: 1.3em;
+			text-transform: uppercase;
+			}
+		
+		h1.title {
+			text-shadow: 1px 1px 1px #000;
+		}
+
+		h2 span {
+			font-family: "Nixie-One";
+			font-size: 1.5em;
+			font-style: normal;
+		}
+
+		p, h3 {	
+			padding: 0 15px;
+			font-family: Georgia;
+			font-size: 1.3em;
+		}
+		
+		a {
+			text-decoration: none;
+		}
+
+		.custom_header {
+			padding: 2px;
+			text-align: center;
+			background: #FF5A14;
+		}
+
+		.custom_footer {
+			padding: 2px;
+			text-align: center;
+			background: #FF5A14;
+		}
+
+	</style>
+</head>
+<body>
+	<div data-role="page" id="home">
+	<header data-role="header" data-position="fixed">
+		<div class="custom_header">
+		<h1 class="title">HTML Encyclopedia</h1>
+			<div>
+				<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">Credits</a>
+			</div>
+			<div data-role="popup" id="popupPaded" class="ui-content">
+			<p>This is my first web app. I was inspired to complete this personal project by the index found on<a href="http://html5doctor.com/element-index/"> HTML5 Doctor</a>. Thanks guys!</p>
+			</div>	
+		</div>
+	</header>
+	
+	<div data-role="content">
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>A is for Apple</h2>
+				<ul data-role="listview" data-filter="true">
+					<li>
+						<a href="#a">
+							<h1>A</h1>
+							<p>If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor)...</p>
+						</a></li>
+					<li><a href="#abbr">
+							<h1>Abbr</h1>
+							<p>Represents an abbreviation or acronym...</p>
+						</a></li>
+					<li><a href="#address">
+							<h1>Address</h1>
+							<p>Represents the contact information for its closing section...</p>
+						</a></li>
+					<li><a href="#area">
+							<h1>Area</h1>
+							<p>The <code>area</code> element represents either a <code>hyperlink</code> with some text...</p>
+						</a></li>
+					<li><a href="#article">
+							<h1>Article</h1>
+							<p>Represents a section of a page that consists of a composition that forms an independent part...</p>
+						</a></li>
+					<li><a href="#aside">
+							<h1>Aside</h1>
+							<p>Represents a section of a page consisting of content that is tangentially related to the content...</p>
+						</a></li>
+					<li><a href="#audio">
+							<h1>Audio</h1>
+							<p>Represents a sound or audio stream...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+	
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>B is for Banana</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#b">
+							<h1>B</h1>
+							<p>Represents a span of text to be stylistically offset from the normal prose without conveying any extra importance...</p>
+						</a></li>
+					<li><a href="#base">
+							<h1>Base</h1>
+							<p>The base element allows authors to specify the document base URL for the purposes of resolving relative URLs, and the name of the default browsing context for the purposes of...</p>
+						</a></li>
+					<li><a href="#bdi">
+							<h1>Bdi</h1>
+							<p>The bdi element represents a span of text that is to be isolated from its surroundings...</p>
+						</a></li>
+					<li><a href="#bdo">
+							<h1>Bdo</h1>
+							<p>The bdo element represents explicit text directionality formatting control for its children...</p>
+						</a></li>
+					<li><a href="#blockquote">
+							<h1>Blockquote</h1>
+							<p>The blockquote element represents a section that is quoted from another source...</p>
+						</a></li>
+					<li><a href="#body">
+							<h1>Body</h1>
+							<p>The body element represents the main content of the document.</p>
+						</a></li>
+					<li><a href="#br">
+							<h1>BR</h1>
+							<p>The br element represents a line break. br elements must be used only for line breaks that are actually part of the content...</p>
+						</a></li>
+					<li><a href="#button">
+							<h1>Button</h1>
+							<p>The button element represents a button...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>C is for Carrot</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#canvas">
+						<h1>Canvas</h1>
+						<p>Represents a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly...</p>
+					</a></li>
+					<li><a href="#caption">
+						<h1>Caption</h1>
+						<p>The <code>caption</code> element represents the title of the <code>table</code> that is its parent, if it has a parent and that is a table element...</p>
+						</a></li>
+					<li><a href="#cite">
+						<h1>Cite</h1>
+						<p>The <code>cite</code> element represents the title of a work (e.g. a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture...</p>
+						</a></li>
+					<li><a href="#code">
+						<h1>Code</h1>
+						<p>The <code>code</code> element represents a fragment of computer code. This could be an <code>XML</code> element name, a filename...</p>
+						</a></li>
+					<li><a href="#col">
+						<h1>Col</h1>
+						<p>If a <code>col</code> element has a parent and that is a colgroup element that itself has a parent that is a <code>table</code> element...</p>
+						</a></li>
+					<li><a href="#colgroup">
+						<h1>Colgroup</h1>
+						<p>The <code>colgroup</code> element represents a group of one or more columns in the table that is its parent, if it has a parent and that is a <code>table</code> element...</p>
+						</a></li>
+					<li><a href="#command">
+						<h1>Command</h1>
+						<p>The <code>command</code> element represents a command that the user can invoke...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>D is for Date</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#datalist">
+						<h1>Datalist</h1>
+						<p>The <code>datalist</code> element represents a set of option elements that represent predefined options for other controls...</p>
+					</a></li>
+					<li><a href="#dd">
+						<h1>dd</h1>
+						<p>The <code>dd</code> element represents the description, definition, or value, part of a term-description group in a description list (<code>dl</code> element)...</p>
+						</a></li>
+					<li><a href="#del">
+						<h1>Del</h1>
+						<p>The <code>del</code> element represents a removal from the document. Thedel elements should not cross implied paragraph boundaries...</p>
+						</a></li>
+					<li><a href="#details">
+						<h1>Details</h1>
+						<p>The <code>details</code> element represents a disclosure widget from which the user can obtain additional information or controls...</p>
+						</a></li>
+					<li><a href="#dfn">
+						<h1>Dfn</h1>
+						<p>The <code>dfn</code> element represents the defining instance of a term...</p>
+						</a></li>
+					<li><a href="#div">
+						<h1>Div</h1>
+						<p>The <code>div</code> element has no special meaning at all. It represents its children...</p>
+						</a></li>
+					<li><a href="#dl">
+						<h1>dl</h1>
+						<p>Represents a description list consisting of zero or more name-value groups...</p>
+						</a></li>
+					<li><a href="#dt">
+						<h1>dt</h1>
+						<p>The <code>dt</code> element represents the term, or name, part of a term-description group in a description list (<code>dl</code> element)...</p>
+						</a></li>
+					<li><a href="#doctype">
+						<h1>Doctype</h1>
+						<p>A <code>DOCTYPE</code> is a required preamble and must consist of the following characters, in this order...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>E is for Elderberry</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#em">
+						<h1>Em</h1>
+						<p>Represents stress emphasis of its contents. The level of emphasis that a particular piece of content has is given...</p>
+					</a></li>
+					<li><a href="#embed">
+						<h1>Embed</h1>
+						<p>Represents an integration point for an external(typically non-<code>HTML</code>) application or interactive content...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>F is for Fig</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#fieldset">
+						<h1>Fieldset</h1>
+						<p>The <code>fieldset</code> element is expected to establish a new block formatting context...</p>
+					</a></li>
+					<li><a href="#figcaption">
+						<h1>Figcaption</h1>
+						<p>The <code>figcaption</code> element represents a <code>caption</code> or <code>legend</code> for the rest of the contents of the <code>figcaption</code> element's parent figure element, if any...</p>
+						</a></li>
+					<li><a href="#figure">
+						<h1>Figure</h1>
+						<p>The <code>figure</code> element represents some flow content, optionally with a <code>caption</code>, that is self-contained and is typically referenced as a single unit...</p>
+						</a></li>
+					<li><a href="#footer">
+						<h1>Footer</h1>
+						<p>Represents the "footer" of a document or section of a document. The <code>footer</code> element typically contains...</p>
+						</a></li>
+					<li><a href="#form">
+						<h1>Form</h1>
+						<p>The <code>form</code> element represents a collection of form-associated elements, some of which can represent editable values that can be submitted to a server for processing...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>H is for Honeydew Melon</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#h1-h6">
+						<h1>h1-h6</h1>
+						<p>Represent headings and subheadings. These elements rank in importance according to the number in their name...</p>
+					</a></li>
+					<li><a href="#head">
+						<h1>Head</h1>
+						<p>The <code>head</code> element represents a collection of <code>metadata</code> for the Document...</p>
+						</a></li>
+					<li><a href="#header">
+						<h1>Header</h1>
+						<p>Represents the "<code>header</code>" of a document or section of a document. The header element is typically used to group a set of <code>h1-h6</code> elements...</p>
+						</a></li>
+					<li><a href="#hr">
+						<h1>hr</h1>
+						<p>Represents a paragraph-level thematic break. The "paragraph-level" bit means between blocks of text, so it can't be used to separate sections of a site...</p>
+						</a></li>
+					<li><a href="#html">
+						<h1>html</h1>
+						<p>The <code>html</code> element represents the root of an <code>HTML</code> document...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>I is for Iceberg Lettuce</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#i">
+						<h1>i</h1>
+						<p>Represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase...</p>
+					</a></li>
+					<li><a href="#iframe">
+						<h1>iframe</h1>
+						<p>The <code>iframe</code> element represents a nested browsing context...</p>
+						</a></li>
+					<li><a href="#img">
+						<h1>img</h1>
+						<p>An <code>img</code> element represents an image. The image given by the <code>src</code> attribute is the embedded content, and the value of the <code>alt</code> attribute...</p>
+						</a></li>
+					<li><a href="#input">
+						<h1>input</h1>
+						<p>The <code>input</code> element represents a typed data field, usually with a form control to allow the user to edit the data...</p>
+						</a></li>
+					<li><a href="#ins">
+						<h1>ins</h1>
+						<p>The <code>ins</code> element represents an addition to the document. The ins elements should not cross implied paragraph boundaries...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>K is for Kiwi Fruit</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li><a href="#kbd">
+						<h1>kbd</h1>
+						<p>The <code>kbd</code> element represents user input (typically keyboard input, although it may also be used to represent other input, such as voice commands)...</p>
+					</a></li>
+					<li><a href="#keygen">
+						<h1>keygen</h1>
+						<p>The <code>keygen</code> element represents a key pair generator control. When the control's form is submitted, the private key is stored...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>L is for Lemon</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#label">
+							<h1>label</h1>
+							<p>The <code>label</code> represents a caption in a user interface. The caption can be associated with a specific form control, known as the <code>label</code> element's...</p>
+						</a></li>
+					<li><a href="#legend">
+							<h1>legend</h1>
+							<p>The <code>legend</code> element represents a caption for the rest of the contents of the <code>legend</code> element's parent <code>fieldset</code> element, if any...</p>
+						</a></li>
+					<li><a href="#li">
+							<h1>li</h1>
+							<p>The <code>li</code> element represents a list item. If its parent element is an <code>ol</code>, <code>ul</code>, or <code>menu</code> element...</p>
+						</a></li>
+					<li><a href="#link">
+							<h1>link</h1>
+							<p>The <code>link</code> element allows authors to link their document to other resources...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>M is for Mango</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#main">
+							<h1>main</h1>
+							<p>The <code>main</code> element is an exact analogue of <code>ARIA</code>'s role="main", and is designed to show screenreaders and assistive technologies exactly where main content begins...</p>
+						</a></li>
+					<li><a href="#map">
+							<h1>map</h1>
+							<p>The <code>map</code> element, in conjunction with any area element descendants, defines an image map...</p>
+						</a></li>
+					<li><a href="#mark">
+							<h1>mark</h1>
+							<p>Represents a run of text in one document marked or highlighted because of its relevance in another context...</p>
+						</a></li>
+					<li><a href="#menu">
+							<h1>menu</h1>
+							<p>The <code>menu</code> element represents a list of commands...</p>
+						</a></li>
+					<li><a href="#meta">
+							<h1>meta</h1>
+							<p>The <code>meta</code> element represents various kinds of <code>metadata</code> that cannot be expressed using the <code>title</code>, <code>base</code>, <code>link</code>, <code>style</code>, and <code>script</code> elements...</p>
+						</a></li>
+					<li><a href="#meter">
+							<h1>meter</h1>
+							<p>When the <code>meter</code> binding applies to a meter element, the element is expected to render as an 'inline-block' box with a 'height' of '1em' and...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>N is for Nectarine</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#nav">
+							<h1>nav</h1>
+							<p>Represents navigation for a document. The <code>nav</code> element is a section containing links to other documents or to parts within the current document...</p>
+						</a></li>
+					<li><a href="#noscript">
+							<h1>noscript</h1>
+							<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>O is for Orange</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#object">
+							<h1>object</h1>
+							<p>The <code>object</code> element can represent an external resource, which, depending on the type of the resource, will either be treated as...</p>
+						</a></li>
+					<li><a href="#ol">
+							<h1>ol</h1>
+							<p>The <code>ol</code> element represents a list of items, where the items have been intentionally ordered, such that...</p>
+						</a></li>
+					<li><a href="#optgroup">
+							<h1>optgroup</h1>
+							<p>The <code>optgroup</code> element represents a group of <code>option</code> elements with a common label. The element's group of <code>option</code> elements consists...</p>
+						</a></li>
+					<li><a href="#option">
+							<h1>option</h1>
+							<p>The <code>option</code> element represents an option in a select element or as part of a list of suggestions in a <code>datalist</code> element...</p>
+						</a></li>
+					<li><a href="#output">
+							<h1>output</h1>
+							<p>Represents the result of a calculation...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>P is for Pear</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#p">
+							<h1>p</h1>
+							<p>The p element represents a paragraph.</p>
+						</a></li>
+					<li><a href="#param">
+							<h1>param</h1>
+							<p>The <code>param</code> element defines parameters for plugins invoked by object elements. It does not represent anything on its own.</p>
+						</a></li>
+					<li><a href="#pre">
+							<h1>pre</h1>
+							<p>The <code>pre</code> element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.</p>
+						</a></li>
+					<li><a href="#progress">
+							<h1>progress</h1>
+							<p>Represents the completion progress of a task. Progress may be either indeterminate — meaning it is unclear how much work remains before the task...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>Q is for Quince</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#q">
+							<h1>q</h1>
+							<p>The <code>q</code>q element represents some phrasing content quoted from another source.</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>R is for Raisin</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#rp">
+							<h1>rp</h1>
+							<p>Represents a container for parentheses used to wrap ruby text (&lt;<code>rt</code>&gt;) inside a &lt;<code>ruby</code>&gt; element...</p>
+						</a></li>
+					<li>
+						<a href="#rt">
+							<h1>rt</h1>
+							<p>Represents a container for ruby text inside a &lt;<code>ruby</code>&gt; element...</p>
+						</a></li>
+					<li>
+						<a href="#ruby">
+							<h1>ruby</h1>
+							<p>Represents a container for base text and ruby text — small annotations used for phonetic readings in languages such as...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>S is for Strawberry</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#s">
+							<h1>s</h1>
+							<p>The <code>s</code> element represents contents that are no longer accurate or no longer relevant.</p>
+						</a></li>
+					<li>
+						<a href="#samp">
+							<h1>samp</h1>
+							<p>The <code>samp</code> element represents (sample) output from a program or computing system.</p>
+						</a></li>
+					<li>
+						<a href="#script">
+							<h1>script</h1>
+							<p>The <code>script</code> element allows authors to include dynamic script and data blocks in their documents...</p>
+						</a></li>
+						<a href="#section">
+							<h1>section</h1>
+							<p>Represents a generic document or application section. In this context, a <code>section</code> is a thematic grouping of content, typically with a <code>header</code>, possibly with a <code>footer</code>...</p>
+						</a></li>
+					<li>
+						<a href="#select">
+							<h1>select</h1>
+							<p>The <code>select</code> element represents a control for selecting amongst a set of options.</p>
+						</a></li>
+					<li>
+						<a href="#small">
+							<h1>small</h1>
+							<p>Represents side comments such as small print. It is not intended to be presentational...</p>
+						</a></li>
+					<li>
+						<a href="#source">
+							<h1>source</h1>
+							<p>The source element allows authors to specify multiple alternative media resources for media elements...</p>
+						</a></li>
+					<li>
+						<a href="#span">
+							<h1>span</h1>
+							<p>The <code>span</code> element doesn't mean anything on its own, but can be useful when used together with...</p>
+						</a></li>
+					<li>
+						<a href="#strong">
+							<h1>strong</h1>
+							<p>Represents strong importance for its contents. Indicate relative importance by nesting strong elements...</p>
+						</a></li>
+					<li>
+						<a href="#style">
+							<h1>style</h1>
+							<p>The <code>style</code> element allows authors to embed style information in their documents...</p>
+						</a></li>
+					<li>
+						<a href="#sub">
+							<h1>sub</h1>
+							<p>The <code>sub</code> element can be used inside a <code>var</code> element, for variables that have subscripts.</p>
+						</a></li>
+					<li>
+						<a href="#summary">
+							<h1>summary</h1>
+							<p>The <code>summary</code> element represents a <code>summary</code>, <code>caption</code>, or <code>legend</code> for the rest of the...</p>
+						</a></li>
+					<li>
+						<a href="#sup">
+							<h1>sup</h1>
+							<p>The <code>sup</code> element represents a <code>superscript</code> and the <code>sub</code> element represents a subscript.</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>T is for Tomato</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#table">
+							<h1>table</h1>
+							<p>The <code>table</code> element represents data with more than one dimension, in the form of a table...</p>
+						</a></li>
+					<li>
+						<a href="#tbody">
+							<h1>tbody</h1>
+							<p>The <code>tbody</code> element represents a block of rows that consist of a body of data for the parent table element...</p>
+						</a></li>
+					<li>
+						<a href="#td">
+							<h1>td</h1>
+							<p>The <code>td</code> element represents a data cell in a table.</p>
+						</a></li>
+						<a href="#textarea">
+							<h1>textarea</h1>
+							<p>The <code>textarea</code> element represents a multiline plain text edit control for the element's raw value...</p>
+						</a></li>
+					<li>
+						<a href="#tfoot">
+							<h1>tfoot</h1>
+							<p>The <code>tfoot</code> element represents the block of rows that consist of the column summaries (footers) for the parent table element...</p>
+						</a></li>
+					<li>
+						<a href="#th">
+							<h1>th</h1>
+							<p>The <code>th</code> element represents a header cell in a table.</p>
+						</a></li>
+					<li>
+						<a href="#thead">
+							<h1>thead</h1>
+							<p>The <code>thead</code> element represents the block of rows that consist of the column labels (headers) for the parent...</p>
+						</a></li>
+					<li>
+						<a href="#time">
+							<h1>time</h1>
+							<p>Represents a precise date and/or time in the proleptic Gregorian calendar...</p>
+						</a></li>
+					<li>
+						<a href="#title">
+							<h1>title</h1>
+							<p>The <code>title</code>title element represents the document's title or name. Authors should use titles that identify their documents...</p>
+						</a></li>
+					<li>
+						<a href="#tr">
+							<h1>tr</h1>
+							<p>The <code>tr</code> element represents a row of cells in a table.</p>
+						</a></li>
+					<li>
+						<a href="#track">
+							<h1>track</h1>
+							<p>The <code>track</code> element allows authors to specify explicit external timed text tracks for media elements...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>U is for Ugli Fruit</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#u">
+							<h1>u</h1>
+							<p>The <code>u</code> element represents a span of text with an unarticulated, though explicitly rendered, non-textual annotation...</p>
+						</a></li>
+					<li>
+						<a href="#ul">
+							<h1>ul</h1>
+							<p>The <code>ul</code> element represents a list of items, where the order of the items is not important...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>V is for Victoria Plum</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#var">
+							<h1>var</h1>
+							<p>The <code>var</code> element represents a variable. This could be an actual variable in a mathematical expression or...</p>
+						</a></li>
+					<li>
+						<a href="#video">
+							<h1>video</h1>
+							<p>Represents a video or movie...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+		<div role="collapsible-set">
+			<div data-role="collapsible" data-theme="b">
+				<h2>W is for Watermelon</h2>
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li>
+						<a href="#wbr">
+							<h1>wbr</h1>
+							<p>The <code>wbr</code> element represents a line break opportunity...</p>
+						</a></li>
+				</ul>
+			</div>
+		</div> <!-- End collapsible-set -->
+
+	</div> <!-- End content -->
+	
+	<footer data-role="footer" data-position="">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+
+<!-- begin linked pages, A-Z-->
+<div data-role="page" id="a">
+	<header data-role="header">
+		<div class="custom_header">
+			<h1 class="title">A</h1>
+		</div>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor). If the a element has no href attribute, then the element represents a placeholder for where a link might otherwise have been placed, if it had been relevant.</p>
+		<p>The <code>target</code>, <code>rel</code>, <code>media</code>, <code>hreflang</code>, and <code>type</code> attributes must be omitted if the href attribute is not present.</p>
+	</div>
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+			<code>&lt;a href="http://ceejaysmedia.com"&gt;Carlton Stith&lt;/a&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="abbr">
+	<header data-role="header">
+		<div class="custom_header">
+			<h1 class="title">Abbr</h1>
+		</div>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents an abbreviation or acronym. The optional <code>title</code> attribute may be used to provide an expansion of the abbreviation. If specified, the title attribute must contain an expansion of the abbreviation and nothing else.</p>
+	</div>
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+			<code>The &lt;abbr title="Web Hypertext Application Technology Working Group"&gt;WHATWG&lt;/abbr&gt; started working on HTML5 in 2004.</code>
+	</div>
+	<!-- end button -->
+	
+
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="address">
+	<header data-role="header">
+		<div class="custom_header">
+			<h1 class="title">Address</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents the contact information for its enclosing section. If it is a child of the body element, then it applies to the document as a whole.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+			<code>&lt;address&gt;5555 N. Broad St. Philadelphia, PA&lt;/address&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="area">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">Area</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>The <code>area</code> element represents either a <code>hyperlink</code> with some text and a corresponding area on an image map, or a dead area on an image map.</p>
+		<p>If the area element has no <code>href</code> attribute, then the area represented by the element cannot be selected, and the <code>alt</code> attribute must be omitted.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+			<code>&lt;img src="floorplan.png" usemap="#rooms" alt="1 bedroom, a kitchen, lounge and bathroom"&gt;<br>
+
+	&lt;map name="rooms"&gt;<br>
+        &lt;area shape="rect" coords="20,20,140,140" href="bedroom.html" alt="Bedroom"&gt;<br>
+        &lt;area shape="rect" coords="20,140,140,280" href="lounge.html" alt="Lounge"&gt;<br>
+        &lt;area shape="poly" coords="140,140,140,280,280,140" href="kitchen.html" alt="Kitchen"&gt;<br>
+        &lt;area shape="rect" coords="140,20,280,140" href="bathroom.html" alt="Bathroom"&gt;<br>
+	&lt;/map&gt;</code>
+	</div>
+	<!-- end button -->
+
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="article">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">Article</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>Represents a section of a page that consists of a composition that forms an independent part of a document, page, or site. This could be a forum post, a magazine or newspaper article, a Web log entry, a user-submitted comment, or any other independent item of content.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+			<code>&lt;article&gt;<br>
+        &lt;header&gt;<br>
+                &lt;h4&gt;&lt;a href="#comment-2" rel="bookmark"&gt;Comment #2&lt;/a&gt;<br>
+                by &lt;a href="http://example.com/"&gt;Jack Osborne&lt;/a&gt;&lt;/h4&gt;<br>
+
+                &lt;time datetime="2007-08-29T13:58Z"&gt;August 29th, 2007 at 13:58&lt;/time&gt;<br>
+        &lt;/header&gt;<br>
+        &lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;<br>
+		&lt;/article&gt;</code>
+	</div>
+	<!-- end button -->
+
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="aside">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">Aside</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents a section of a page consisting of content that is tangentially related to the content around the <code>aside</code> element, and which could be considered separate from that content. Such sections are often represented as sidebars in printed typography.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;aside&gt;<br>
+	        &lt;h2&gt;Blogroll&lt;/h2&gt;<br>
+	        &lt;ul&gt;<br>
+	            &lt;li&gt;&lt;a href="#"&gt;My Friend&lt;/a&gt;&lt;/li&gt;<br>
+				&lt;li&gt;&lt;a href="#"&gt;My Other Friend&lt;/a&gt;&lt;/li&gt;<br>
+				&lt;li&gt;&lt;a href="#"&gt;My Best Friend&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;/ul&gt;<br>
+		&lt;/aside&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="audio">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">Audio</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>Represents a sound or audio stream.</p>
+		<p>Content can be nested inside the <code>audio</code> element. User agents should not show this content to the user. Authors should use this content to force older browsers to use a legacy audio plugin or to inform the user of how to access the audio content.</p>
+		<h3>Supported audio codecs:</h3>
+		<ul>
+			<li>Chrome 3+ supports .ogg and .wav</li>
+			<li>Firefox 3.5+ supports .ogg and .wav</li>
+			<li>Opera 10.5+ supports .ogg and .wav</li>
+			<li>Safari 4+ supports .mp3 and .wav</li>
+		</ul>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;audio src="music.oga" controls&gt;<br>
+        &lt;a href="music.oga">Download song&lt;/a&gt;<br>
+		&lt;/audio&gt;</code>
+	</div>
+	<!-- end button -->
+
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="http://www.ceejaysmedia.com" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end A page -->
+
+<div data-role="page" id="b">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">b</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents a span of text to be stylistically offset from the normal prose without conveying any extra importance. Examples are key words in a document abstract, product names in a review, or other spans of text whose typical typographic presentation is bold.</p>
+		<p>The <code>b</code> element should be used as a last resort when no other element is more appropriate. In particular, headings should use the <code>h1</code> to <code>h6</code> elements, stress emphasis should use the em element, importance should be denoted with the strong element, and text marked or highlighted should use the mark element.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;b class="character">Deckard&lt;/b&gt;: &lt;i class="voiceover"&gt;The report would be routine retirement of a replicant which didn't make me feel any better about shooting a woman in the back. There it was again. Feeling, in myself. For her, for Rachael.&lt;/i&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="base">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">base</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>base</code> element allows authors to specify the document base URL for the purposes of resolving relative URLs, and the name of the default browsing context for the purposes of following hyperlinks. The element does not represent any content beyond this information.</p>
+		<p>There must be no more than one <code>base</code> element per document. A <code>base</code> element must have either an <code>href</code> attribute, a <code>target</code> attribute, or both.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;head&gt;<br>
+  		&lt;title&gt;The Company&lt;/title&gt;<br>
+  		&lt;base href="http://www.example.com/"&gt;<br>
+		&lt;/head&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="bdi">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">bdi</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	<div data-role="content">
+		<p>The <code>bdi</code> element represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;ul&gt;<br>
+  		&lt;li&gt;&lt;bdi&gt;carltonstith&lt;/bdi&gt; joined the site.&lt;/li&gt;<br>
+  		&lt;li&gt;&lt;bdi&gt;@carltonstith&lt;/bdi&gt; posted "January update".&lt;/li&gt;<br>
+		&lt;li&gt;&lt;bdi&gt;Carlton Stith&lt;/bdi&gt; commented on "Getting started with HTML5".&lt;/li&gt;<br>
+		&lt;/ul&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="bdo">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">bdo</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>bdo</code> element represents explicit text directionality formatting control for its children. It allows authors to override the Unicode bidirectional algorithm by explicitly specifying a direction override.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;p&gt;&lt;bdo dir="rtl"&gt;Don't cheat by reading this in a mirror!&lt;/bdo&gt;&lt;/p&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="blockquote">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">blockquote</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>blockquote</code> element represents a section that is quoted from another source. Content inside a <code>blockquote</code> must be quoted from another source, whose address, if it has one, may be cited in the cite attribute.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;blockquote&gt;What we have here is a quotation from another source.&lt;/blockquote&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="body">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">body</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>body</code> element represents the main content of the document.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;body id="index"&gt;<br>
+        &lt;p&gt;content&lt;/p&gt;<br>
+		&lt;/body&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="br">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">br</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>br</code> element represents a line break. <code>br</code> elements must be used only for line breaks that are actually part of the content, as in poems or addresses. <code>br</code> elements must not be used for separating thematic groups in a paragraph.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;br /&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="button">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">button</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>button</code> element represents a button. If the element is not disabled, then the user agent should allow the user to activate the button.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;button&gt;Do something!&lt;/button&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end B page -->
+
+<div data-role="page" id="canvas">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1 class="title">canvas</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly.</p>
+		<p>Authors should not use the canvas element in a document when a more suitable element is available. For example, it is inappropriate to use a <code>canvas</code> element to render a page heading. If the desired presentation of the heading is graphically intense, it should be marked up using appropriate elements (typically <code>h1</code>) and then styled using <code>CSS</code> and supporting technologies such as <code>XBL</code>.</p>
+		<p>When authors use the <code>canvas</code> element, they must also provide content that, when presented to the user, conveys essentially the same function or purpose as the bitmap canvas. This content should be nested within the canvas element as a fallback.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;canvas id="myCanvas" width="300" height="150"&gt;<br>
+		Fallback content, in case the browser does not support Canvas. <br>
+		&lt;/canvas&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="caption">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>caption</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>caption</code> element represents the title of the <code>table</code> that is its parent, if it has a parent and that is a table element.</p>
+		<p>When a <code>table</code> element is the only content in a <code>figure</code> element other than the <code>figcaption</code>, the <code>caption</code> element should be omitted in favor of the <code>figcaption</code>.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;table&gt;<br><br>&lt;caption&gt;Animals on our farm&lt;/caption&gt;<br>
+&lt;colgroup&gt;<br>
+        &lt;col class="column1" /&gt;<br>
+        &lt;col class="column2" /&gt;<br>
+		<br>
+        &lt;col class="column3-4" span="2" /&gt;<br>
+&lt;/colgroup&gt;<br>
+&lt;tr&gt;<br>
+        &lt;th&gt;dog&lt;/th&gt;<br>
+        &lt;th&gt;cat&lt;/th&gt;<br>
+		<br>
+        &lt;th&gt;lizard&lt;/th&gt;<br>
+        &lt;th&gt;snake&lt;/th&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/tr&gt;<br>
+        &lt;td&gt;5&lt;/td&gt;<br>
+		<br>
+        &lt;td&gt;2&lt;/td&gt;<br>
+        &lt;td&gt;10&lt;/td&gt;<br>
+        &lt;td&gt;500&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+<br>
+&lt;/table&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="cite">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>cite</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>cite</code> element represents the title of a work (e.g. a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, a legal case report, etc). This can be a work that is being quoted or referenced in detail (i.e. a citation), or it can just be a work that is mentioned in passing.</p>
+		<p>A person's name is not the title of a work — even if people call that person a piece of work — and the element must therefore not be used to mark up people's names. In some cases, the b element might be appropriate for names; e.g. in a gossip article where the names of famous people are keywords rendered with a different style to draw attention to them. In other cases, if an element is really needed, the span element can be used.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>My favorite book is &lt;cite&gt;Introducing HTML5&lt;/cite&gt; by Bruce and Remy.</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="code">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>code</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>code</code> element represents a fragment of computer code. This could be an <code>XML</code> element name, a filename, a computer program, or any other string that a computer would recognize.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>To get started with HTML5 you just need at this top of your page &lt;code&gt;&lt;!DOCTYPE html&gt;&lt;/code&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="col">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>col</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>If a <code>col</code> element has a parent and that is a <code>colgroup</code> element that itself has a parent that is a <code>table</code> element, then the <code>col</code> element represents one or more columns in the column group represented by that <code>colgroup</code>.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;table&gt;<br>
+		<br>
+                &lt;colgroup&gt;<br>
+                        &lt;col class="column1" /&gt;<br>
+                        &lt;col class="column2" /&gt;<br>
+                        &lt;col class="column3-4" span="2" /&gt;<br>
+                &lt;/colgroup&gt;<br><br>
+                &lt;tr&gt;<br>
+                
+                        &lt;th&gt;dog&lt;/th&gt;<br>
+                        &lt;th&gt;cat&lt;/th&gt;<br>
+                        &lt;th&gt;horse&lt;/th&gt;<br>
+                        &lt;th&gt;iguana&lt;/th&gt;<br>
+                &lt;/tr&gt;<br><br>
+                &lt;tr&gt;<br>
+                        &lt;td&gt;5&lt;/td&gt;<br>
+                        &lt;td&gt;2&lt;/td&gt;<br>
+                        &lt;td&gt;10&lt;/td&gt;<br>
+                        &lt;td&gt;500&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                <br>
+		&lt;/table&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="colgroup">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>colgroup</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>colgroup</code> element represents a group of one or more columns in the table that is its parent, if it has a parent and that is a <code>table</code> element.</p>
+		<p>If the <code>colgroup</code> element contains no col elements, then the element may have a <code>span</code> content attribute specified, whose value must be a valid non-negative integer greater than zero.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;table&gt;<br>
+		<br>
+                &lt;colgroup&gt;<br>
+                        &lt;col class="column1" /&gt;<br>
+                        &lt;col class="column2" /&gt;<br>
+                        &lt;col class="column3-4" span="2" /&gt;<br>
+                &lt;/colgroup&gt;<br><br>
+                &lt;tr&gt;<br>
+                
+                        &lt;th&gt;dog&lt;/th&gt;<br>
+                        &lt;th&gt;cat&lt;/th&gt;<br>
+                        &lt;th&gt;horse&lt;/th&gt;<br>
+                        &lt;th&gt;iguana&lt;/th&gt;<br>
+                &lt;/tr&gt;<br><br>
+                &lt;tr&gt;<br>
+                        &lt;td&gt;5&lt;/td&gt;<br>
+                        &lt;td&gt;2&lt;/td&gt;<br>
+                        &lt;td&gt;10&lt;/td&gt;<br>
+                        &lt;td&gt;500&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                <br>
+		&lt;/table&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="command">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>command</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>command</code> element represents a command that the user can invoke. A command can be part of a context menu or toolbar, using the <code>menu</code> element, or can be put anywhere else in the page, to define a keyboard shortcut.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;menu type="toolbar"&gt;&lt;command type="radio" radiogroup="alignment" checked="checked" label="Left" icon="left.png" onclick="setAlign('left')" /&gt;
+		&lt;/menu&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end C page -->
+
+<div data-role="page" id="datalist">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>datalist</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>datalist</code> element represents a set of option elements that represent predefined options for other controls. The contents of the element represents fallback content for legacy user agents, intermixed with <code>option</code> elements that represent the predefined options. In the rendering, the <code>datalist</code> element represents nothing and it, along with its children, should be hidden.</p>
+		<p>The <code>datalist</code> element is hooked up to an input element using the list attribute on the <code>input</code> element.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;label&gt;My favorite fruits:<br>	
+&lt;input type="text" name="fruit" list="fruits"&gt;<br>
+  &lt;datalist id="fruits"&gt;<br>
+        &lt;option value="Blackberry"&gt;Blackberry&lt;/option&gt;<br>
+        &lt;option value="Blackcurrant">Blackcurrant&lt;/option&gt;<br>
+        &lt;option value="Blueberry"&gt;Blueberry&lt;/option&gt;<br>
+  &lt;/datalist&gt;<br>
+&lt;/label&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="dd">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>dd</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>dd</code> element represents the description, definition, or value, part of a term-description group in a description list (<code>dl</code> element).</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;dl&gt;<br>
+		&lt;dt&gt;address&lt;/dt&gt;<br>
+		&lt;dd&gt;The address element represents the contact information for the section it applies to. If it applies to the body element, then it instead applies to the document as a whole.
+		&lt;/dd&gt;<br>
+		&lt;dt&gt;article&lt;/dt&gt;<br>
+
+		&lt;dd&gt;The article element represents a section of a page that consists of a composition that forms an independent part of a document, page, or site. This could be a forum post, a magazine or newspaper article, a Web log entry, a user-submitted comment, or any other independent item of content.&lt;/dd&gt;<br>
+		&lt;/dl&gt;<br>
+		&lt;dt&gt;/article&lt;/dt&gt;<br>
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="del">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>del</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>The <code>del</code> element represents a removal from the document. The <code>del</code> elements should not cross implied paragraph boundaries.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;p&gt;My favourite colour is &lt;del datetime="2010-10-11T01:25-07:00"&gt;blue&lt;/del&gt; &lt;ins datetime="2010-10-11T01:25-07:01"&gt;red&lt;/ins&gt;, but I also like green and yellow.&lt;/p&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="details">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>details</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>details</code> element represents a disclosure widget from which the user can obtain additional information or controls. However, the <code>details</code> element is not appropriate for footnotes.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;details&gt;<br>
+        &lt;summary&gt;Name & Extension:&lt;/summary&gt;<br>
+		<br>
+        &lt;p&gt;&lt;input type=text name=fn value="Pillar Magazine.pdf"&gt;<br>
+        &lt;p&gt;&lt;label&gt;&lt;input type=checkbox name=ext checked&gt; Hide extension&lt;/label&gt;<br>
+		&lt;/details&gt;<br>
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="dfn">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>dfn</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>dfn</code> element represents the defining instance of a term. The paragraph, description list group, or section that is the nearest ancestor of the <code>dfn</code> element must also contain the definition(s) for the term given by the <code>dfn</code> element.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;p&gt;While they're essential reading material for our job, the &lt;dfn&gt;&lt;abbr title="World Wide Web Consortium"&gt;W3C&lt;/abbr&gt;&lt;/dfn&gt; specifications are not exactly George R. R. Martin-level reading material.&lt;/p&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="div">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>div</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>div</code> element has no special meaning at all. It represents its children. It can be used with the <code>class</code>, <code>lang</code>, and <code>title</code> attributes to mark up semantics common to a group of consecutive elements.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;div&gt;<br>
+        &lt;p&gt;content&lt;/p&gt;<br>
+		&lt;/div&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="dl">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>dl</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents a description list consisting of zero or more name-value groups. Each group must consist of one or more names (<code>dt</code> elements) each followed by one or more values (<code>dd</code> elements).</p>
+		<p>Name-value groups may be terms and definitions, <code>metadata</code> topics and values, or any other groups of name-value data. The values within a group are alternatives; multiple paragraphs forming part of the same value must all be given within the same <code>dd</code> element.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;dl&gt;<br>
+        &lt;dt&gt;address&lt;/dt&gt;<br>
+		<br>
+        &lt;dd&gt;The address element represents the contact information for the section it applies to. If it applies to the body element, then it instead applies to the document as a whole.&lt;/dd&gt;<br>
+        &lt;dt&gt;article&lt;/dt&gt;<br>
+        &lt;dd&gt;The article element represents a section of a page that consists of a composition that forms an independent part of a document, page, or site. This could be a forum post, a magazine or newspaper article, a Web log entry, a user-submitted comment, or any other independent item of content.&lt;/dd&gt;<br>
+		&lt;/dl&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="dt">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>dt</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>dt</code> element represents the term, or name, part of a term-description group in a description list (<code>dl</code> element).</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;dl&gt;<br>
+		&lt;dt&gt;address&lt;/dt&gt;<br>
+		&lt;dd&gt;The address element represents the contact information for the section it applies to. If it applies to the body element, then it instead applies to the document as a whole.&lt;/dd&gt;<br>
+		<br>
+		&lt;dt&gt;article&lt;/dt&gt;<br>
+		&lt;dd&gt;The article element represents a section of a page that consists of a composition that forms an independent part of a document, page, or site. This could be a forum post, a magazine or newspaper article, a Web log entry, a user-submitted comment, or any other independent item of content.&lt;/dd&gt;<br>
+ 		&lt;/dl&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="doctype">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>doctype</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>A <code>DOCTYPE</code> is a required preamble and must consist of the following characters, in this order:</p>
+			<ol>
+				<li>A string that is an <code>ASCII</code> case-insensitive match for the string "<code>&lt;!DOCTYPE&gt;</code>".</li>
+				<li>One or more space characters.</li>
+				<li>A string that is an <code>ASCII</code> case-insensitive match for the string "html".</li>
+				<li>Optionally, a <code>DOCTYPE</code> legacy string or an obsolete permitted <code>DOCTYPE</code> string (defined below).</li>
+				<li>Zero or more space characters.</li>
+				<li>A <code>U+003E GREATER-THAN SIGN</code> character (<code>></code>).</li>
+			</ol>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;!DOCTYPE html&gt;<br>
+		&lt;html lang="en"&gt;<br>
+		&lt;head&gt;<br>
+		&lt;meta charset="utf-8" /&gt;<br>
+		&lt;title&gt;HTML5 Doctor | Element Index&lt;/title&gt;<br>
+		&lt;link rel="stylesheet" href="style.css" /&gt;<br>
+		&lt;/head&gt;<br>
+		<br>
+		&lt;body id="home"&gt;<br>
+		&lt;p&gt;Some really good content goes here.&lt;/p&gt;<br>
+		&lt;/body&gt;<br>
+		&lt;/html&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end D page -->
+
+<div data-role="page" id="em">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>em</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents stress emphasis of its contents. The level of emphasis that a particular piece of content has is given by its number of ancestor <code>em</code> elements. The 'stress' being referred to is linguistic. If spoken, this stress would be emphasised pronunciation on a word that can change the nuance of a sentence.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>&lt;p&gt;Call a doctor &lt;em&gt;now&lt;/em&gt;!&lt;/p&gt;</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="embed">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>embed</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents an integration point for an external(typically non-<code>HTML</code>) application or interactive content.</p>
+		<p>The optional <code>src</code> attribute specifies the URL of the resource being embedded.</p>
+		<p>The optional type attribute specifies the <code>MIME</code> type of the plugin to instantiate. The value must be a valid <code>MIME</code> type, optionally with parameters. If both the type attribute and the src attribute are present, then the type attribute must specify the same <code>MIME</code> type as the explicit Content-Type metadata of the resource given by the src attribute.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+		&lt;embed src="movieclip.mov"&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end E page -->
+
+<div data-role="page" id="fieldset">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>fieldset</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>fieldset</code> element is expected to establish a new block formatting context.</p>
+		<p>If the <code>fieldset</code> element has a child that matches the conditions in the list below, then the first such child is the fieldset element's rendered legend:</p>
+		<ul>
+			<li>The child is a <code>legend</code> element.</li>
+			<li>The child is not out-of-flow (e.g. not absolutely positioned or floated).</li>
+			<li>The child is generating a box (e.g. it is not '<code>display:none</code>').</li>
+		</ul>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;form id="app-login" action="process.php"&gt;<br>
+			&lt;fieldset&gt;<br>
+			&lt;legend&gt;Login Details&lt;/legend&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;label for="user-name"&gt;Username:&lt;/label&gt;<br>
+			<br>
+  			&lt;input name="user-name" type="email" placeholder="Your username is your email address" required autofocus&gt;<br>
+			&lt;/div&gt;<br>	
+			&lt;div&gt;<br>
+  			&lt;label for="password"&gt;Password:&lt;/label&gt;<br>
+  			&lt;input name="password" type="password" placeholder="6 digits, a combination of numbers and letters" required&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;input name="login" type="submit" value="Login"&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;/fieldset&gt;<br>
+			&lt;/form&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="figcaption">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>figcaption</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>figcaption</code> element represents a <code>caption</code> or <code>legend</code> for the rest of the contents of the <code>figcaption</code> element's parent <code>figure</code> element, if any.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;figure&gt;<br>
+			&lt;img ... &gt; (or video, table etc)<br>	
+        	&lt;figcaption&gt;A rabid unicorn goring a fairy.&lt;/figcaption&gt;<br>
+			&lt;/figure&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="figure">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>figure</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>The <code>figure</code> element represents some flow content, optionally with a caption, that is self-contained and is typically referenced as a single unit from the main flow of the document.</p>
+		<p>The <code>figure</code> element can be used to annotate illustrations, diagrams, photos, code listings, etc., that are referenced in the main content of the document, but that could, without affecting the flow of the document, be moved away from that primary content — e.g., to the side of the page, to dedicated pages, or to an appendix.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;figure&gt;<br>
+        	&lt;img ... &gt; (or video, table etc)<br>
+        	&lt;figcaption&gt;A rabid unicorn goring a fairy.&lt;/figcaption&gt;<br>
+			&lt;/figure&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="footer">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>footer</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents the "<code>footer</code>" of a document or section of a document. The <code>footer</code> element typically contains <code>metadata</code> about its enclosing section, such as who wrote it, links to related documents, copyright data, etc. Contact information for the section given in a footer should be marked up using the <code>address</code> element.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;footer&gt;
+        	© 2009 HTML5Doctor.com
+			&lt;/footer&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="form">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>form</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>form</code> element represents a collection of form-associated elements, some of which can represent editable values that can be submitted to a server for processing.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;form id="app-login" action="process.php"&gt;<br>
+			&lt;fieldset&gt;<br>
+			&lt;legend&gt;Login Details&lt;/legend&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;label for="user-name"&gt;Username:&lt;/label&gt;<br>
+			<br>
+  			&lt;input name="user-name" type="email" placeholder="Your username is your email address" required autofocus&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+			&lt;br&gt;<br>
+  			&lt;label for="password"&gt;Password:&lt;/label&gt;<br>
+  			&lt;input name="password" type="password" placeholder="6 digits, a combination of numbers and letters" required&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;input name="login" type="submit" value="Login"&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;/fieldset&gt;<br>
+			&lt;/form&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end F page -->
+
+<div data-role="page" id="h1-h6">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>h1-h6</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represent headings and subheadings. These elements rank in importance according to the number in their name. The <code>h1</code> element is said to have the highest rank, the <code>h6</code> element has the lowest rank, and two elements with the same name have equal rank.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;h(n)&gt;Heading Title&lt;/h(n)&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="head">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>head</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>head</code> element represents a collection of <code>metadata</code> for the Document.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;!DOCTYPE html&gt;<br>
+			&lt;html lang="en"&gt;<br>
+			&lt;head&gt;<br>
+			&lt;meta charset="utf-8" /&gt;<br>
+			&lt;title&gt;Carlton Stith | Front-End Web Developer&lt;/title&gt;<br>
+			&lt;link rel="stylesheet" type="text/css" href="media/css/style.css" /&gt;<br>
+			&lt;/head&gt;<br>
+			<br>
+			&lt;body id="home"&gt;<br>
+			&lt;p&gt;content&lt;/p&gt;<br>
+			&lt;/body&gt;<br>
+			&lt;/html&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="header">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>header</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>Represents the "<code>header</code>" of a document or section of a document. The header element is typically used to group a set of <code>h1-h6</code> elements to mark up a page's title with its subtitle or tagline. <code>Header</code> elements may, however, contain more than just the section's headings and subheadings — e.g., version history information or publication date.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;header&gt;
+        	&lt;h1&gt;CeeJaySMedia.com&lt;/h1&gt;
+			&lt;/header&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="hr">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>hr</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents a paragraph-level thematic break. The "paragraph-level" bit means between blocks of text, so it can't be used to separate sections of a site. Instead, <code>hr</code> now separates different topics within a section of prose, or between scenes in a novel.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;p&gt;Lorem Ipsum dolor set amet&lt;/p&gt;
+			&lt;hr /&gt;
+			&lt;p&gt;Lorem Ipsum dolor set amet&lt;/p&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="html">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>html</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>html</code> element represents the root of an <code>HTML</code> document.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;!DOCTYPE html&gt;<br>
+			&lt;html lang="en"&gt;<br>
+			&lt;head&gt;<br>
+			&lt;meta charset="utf-8" /&gt;<br>
+			&lt;title&gt;Carlton Stith | Front-End Web Developer&lt;/title&gt;<br>
+			&lt;link rel="stylesheet" type="text/css" href="media/css/style.css" /&gt;<br>
+			&lt;/head&gt;<br>
+			<br>
+			&lt;body id="home"&gt;<br>
+			&lt;p&gt;content&lt;/p&gt;<br>
+			&lt;/body&gt;<br>
+			&lt;/html&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end H page -->
+
+<div data-role="page" id="i">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>i</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a ship name, or some other prose whose typical typographic presentation is italicized.</p>
+		<p>Only use <code>i</code> when nothing more suitable is available — e.g., <code>em</code> for text with stress emphasis, <code>strong</code> for text with semantic importance, <code>cite</code> for titles in a citation or bibliography, <code>dfn</code> for defining a word, and <code>var</code> for mathematical variables.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			The term &lt;i&gt;prose content&lt;/i&gt; is defined above.
+			&lt;i class="taxonomy"&gt;Nanotyrannus&lt;/i&gt; ("dwarf tyrant") is a genus of tyrannosaurid dinosaur, and is possibly a juvenile specimen of &lt;i class="taxonomy"&gt;Tyrannosaurus&lt;/i&gt;.
+			<br>
+			We ate &lt;i lang="ja-latn" title="eel"&gt;unagi&lt;/i&gt;, &lt;i lang="ja-latn" title="seared salmon"&gt;aburi-zake&lt;/i&gt;, and &lt;i lang="ja-latn" title="octopus"&gt;tako&lt;/i&gt; sushi last night.
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="iframe">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>iframe</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>iframe</code> element represents a nested browsing context.</p>
+		<p>For <code>iframe</code> elements in HTML documents, the attribute, if present, must have a value using the <code>HTML</code> syntax that consists of the following syntactic components, in the given order:</p>
+		<ul>
+			<li>Any number of comments and space characters.</li>
+			<li>Optionally, a <code>DOCTYPE</code>.</li>
+			<li>Any number of comments and space characters.</li>
+			<li>The root element, in the form of an <code>html</code> element.</li>
+		</ul>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;iframe height="500" width="500" src="http://google.com"&gt;&lt;/iframe&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="img">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>img</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>An <code>img</code> element represents an image. The image given by the <code>src</code> attribute is the embedded content, and the value of the <code>alt</code> attribute is the <code>img</code> element's fallback content.</p>
+		<p>The <code>src</code> attribute must be present, and must contain a valid non-empty URL potentially surrounded by spaces referencing a non-interactive, optionally animated, image resource that is neither paged nor scripted.</p>
+		<p>The <code>img</code> element must not be used as a layout tool. In particular, <code>img</code> elements should not be used to display transparent images, as they rarely convey meaning and rarely add anything useful to the document.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;img src="logo.gif" alt="CeeJayS Media Logo" /&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="input">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>input</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>input</code> element represents a typed data field, usually with a form control to allow the user to edit the data.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;form id="app-login" action="process.php"&gt;<br>
+			&lt;fieldset&gt;<br>
+			&lt;legend&gt;Login Details&lt;/legend&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;label for="user-name"&gt;Username:&lt;/label&gt;<br>
+  			&lt;input name="user-name" type="email" placeholder="Your username is your email address" required autofocus&gt;<br>
+			<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;label for="password"&gt;Password:&lt;/label&gt;<br>
+  			&lt;input name="password" type="password" placeholder="6 digits, a combination of numbers and letters" required&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  			&lt;input name="login" type="submit" value="Login"&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;/fieldset&gt;<br>
+			&lt;/form&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="ins">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>ins</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>ins</code> element represents an addition to the document. The ins elements should not cross implied paragraph boundaries.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;p&gt;My favourite colour is &lt;del datetime="2010-10-11T01:25-07:00"&gt;blue&lt;/del&gt; &lt;ins datetime="2010-10-11T01:25-07:01"&gt;red&lt;/ins&gt;, but I also like green and yellow.&lt;/p&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end I page -->
+
+
+<div data-role="page" id="kbd">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>kbd</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>kbd</code> element represents user input (typically keyboard input, although it may also be used to represent other input, such as voice commands).</p>
+		<p>When the <code>kbd</code> element is nested inside a <code>samp</code> element, it represents the input as it was echoed by the system. When the <code>kbd</code> element contains a <code>samp</code> element, it represents input based on system output, for example invoking a menu item.</p>
+		<p>When the <code>kbd</code> element is nested inside another <code>kbd</code> element, it represents an actual key or other single unit of input as appropriate for the input mechanism.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;p&gt;Mac users: To take a screenshot press &lt;kbd&gt;Command&lt;/kbd&gt;+&lt;kbd&gt;Shift&lt;/kbd&gt;+&lt;kbd&gt;3&lt;/kbd&gt;&lt;/kbd&gt;&lt;/p&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="keygen">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>keygen</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>keygen</code> element represents a key pair generator control. When the control's form is submitted, the private key is stored in the local keystore, and the public key is packaged and sent to the server.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;form action="/submit_key.php" method="post" enctype="multipart/form-data"&gt;<br>
+ 			&lt;keygen name="key"&gt;<br>
+ 			&lt;input type="submit" value="Submit"&gt;<br>
+			&lt;/form&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end K page -->
+
+<div data-role="page" id="label">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>label</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>label</code> represents a caption in a user interface. The caption can be associated with a specific form control, known as the <code>label</code> element's labeled control, either using for attribute, or by putting the form control inside the <code>label</code> element itself.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;form id="app-login" action="process.php"&gt;<br>
+				&lt;fieldset&gt;<br>
+				&lt;legend&gt;Login Details&lt;/legend&gt;<br>
+			&lt;div&gt;<br>
+  				&lt;label for="un"&gt;Username:&lt;/label&gt;<br>
+			<br>
+  				&lt;input name="user-name" id="un" type="email" placeholder="Your username is your email address" required autofocus&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  				&lt;label for="pass"&gt;Password:&lt;/label&gt;<br>
+  				&lt;input name="password" id="pass" type="password" placeholder="6 digits, a combination of numbers and letters" required&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  				&lt;input name="login" type="submit" value="Login"&gt;<br>
+			&lt;/div&gt;<br>
+				&lt;/fieldset&gt;<br>
+			&lt;/form&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="legend">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>legend</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>legend</code> element represents a caption for the rest of the contents of the <code>legend</code> element's parent <code>fieldset</code> element, if any.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;form id="app-login" action="process.php"&gt;<br>
+				&lt;fieldset&gt;<br>
+				&lt;legend&gt;Login Details&lt;/legend&gt;<br>
+			&lt;div&gt;<br>
+  				&lt;label for="un"&gt;Username:&lt;/label&gt;<br>
+			<br>
+  				&lt;input name="user-name" id="un" type="email" placeholder="Your username is your email address" required autofocus&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  				&lt;label for="pass"&gt;Password:&lt;/label&gt;<br>
+  				&lt;input name="password" id="pass" type="password" placeholder="6 digits, a combination of numbers and letters" required&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;div&gt;<br>
+  				&lt;input name="login" type="submit" value="Login"&gt;<br>
+			&lt;/div&gt;<br>
+				&lt;/fieldset&gt;<br>
+			&lt;/form&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="li">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>li</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>The <code>li</code> element represents a list item. If its parent element is an <code>ol</code>, <code>ul</code>, or <code>menu</code> element, then the element is an item of the parent element's list, as defined for those elements. Otherwise, the list item has no defined list-related relationship to any other <code>li</code> element.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;ol&gt;<br>
+				&lt;li&gt;Ordered List Item One&lt;/li&gt;<br>
+        		&lt;li&gt;Ordered List Item Two&lt;/li&gt;<br>
+			&lt;/ol&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="link">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>link</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>link</code> element allows authors to link their document to other resources.</p>
+		<p>The destination of the link(s) is given by the <code>href</code> attribute, which must be present and must contain a valid non-empty URL potentially surrounded by spaces. If the <code>href</code> attribute is absent, then the element does not define a link.</p>
+		<p>A <code>link</code> element must have <code>rel</code> attribute.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;!DOCTYPE html&gt;<br>
+			&lt;html lang="en_us"&gt;<br>
+			&lt;head&gt;<br>
+        	&lt;meta charset="UTF-8"&gt;<br>
+        	&lt;title&gt;My Super Page&lt;/title&gt;<br>
+        	&lt;meta name="robots" content="index,follow" /&gt;<br>
+        	&lt;link rel="stylesheet" href="css/style.css"&gt;<br>
+			&lt;/head&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> <!-- end L page -->
+
+<div data-role="page" id="main">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>main</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>main</code> element is an exact analogue of <code>ARIA</code>'s role="main", and is designed to show screenreaders and assistive technologies exactly where main content begins, so it can be a target for a "skip links" keyboard command, for example. It could also be used for content syndication (Instapaper-ish things); mobile browsers could zoom in on <code>main</code> when encountering non-responsive websites. It should therefore be used once per page. If you use something like &lt;div id="main"&gt; (or similar, such as &lt;div id="content"&gt;), simply replace that with &lt;main role="main"&gt;.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;!-- other content --&gt;<br>
+			<br>
+			&lt;main role="main"&gt;<br>
+			<br>
+				&lt;h1&gt;Skateboards&lt;/h1&gt;<br>
+				&lt;p&gt;The skateboard is the way cool kids get around.&lt;/p&gt;<br>
+			<br>
+  			&lt;article&gt;<br>
+    			&lt;h2&gt;Longboards&lt;/h2&gt;<br>
+    			&lt;p&gt;Longboards are a type of skateboard with a longer wheelbase and larger, softer wheels.&lt;/p&gt;<br>
+    			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, fugit nihil nulla ipsum magnam repellat adipisci officiis recusandae doloribus perspiciatis laborum id praesentium ex eos quos odio accusamus qui corporis.&lt;/p&gt;<br>
+  			&lt;/article&gt;<br>
+			<br>
+  			&lt;article&gt;<br>
+    			&lt;h2&gt;Electric Skateboards&lt;/h2&gt;<br>
+    			&lt;p&gt;These no longer require the propelling of the skateboard by means of the feet; rather an electric motor propels the board, fed by an electric battery.&lt;/p&gt;<br>
+    			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, maxime, molestias, eius perferendis commodi veniam nulla dolores in quidem soluta possimus tenetur consectetur non a neque delectus similique incidunt nostrum.&lt;/p&gt;<br>
+  			&lt;/article&gt;<br>
+			<br>
+			&lt;/main&gt;<br>
+			<br>
+			&lt;!-- other content --&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="map">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>map</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>map</code> element, in conjunction with any <code>area</code> element descendants, defines an image map. The element represents its children.</p>
+	</div>
+
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;section&gt;<br>
+ 				&lt;h1&gt;Clothing&lt;/h1&gt;<br>
+ 				&lt;img src="/images/menu.gif" alt="Select a department to go to its page." usemap="#nav"&gt;<br>
+			&lt;/section&gt;<br>
+ 			<br>
+			&lt;footer&gt;<br>
+ 				&lt;map name="nav"&gt;<br>
+  				&lt;p&gt;&lt;a href="/women/"&gt;Women&lt;/a&gt;<br>
+   				&lt;area alt="Women" coords="0,0,100,50" href="/women/"&gt; |<br>
+   				&lt;a href="/men/"&gt;Men&lt;/a&gt;<br>
+   				&lt;area alt="Men" coords="0,0,100,50" href="/men/"&grt; |<br>
+   				&lt;a href="/kids/"&gt;Kids&lt;/a&gt;<br>
+   				&lt;area alt="Food" coords="0,0,100,50" href="/kids/"&gt; |<br>
+   				&lt;/p&gt;<br>
+ 				&lt;/map&gt;<br>
+			&lt;/footer&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="mark">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>mark</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+	
+	<div data-role="content">
+		<p>Represents a run of text in one document marked or highlighted because of its relevance in another context.</p>
+		<p>When used in a quotation or other block of text referenced in a document, it indicates a highlight that was not present in the original document — e.g., a portion of text in an academic publication that has recently come under additional scrutiny.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			In this sentence we'll be using the mark element. <mark>HTML5</mark> Can you see where it has been used?
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="menu">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>menu</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>menu</code> element represents a list of commands.</p>
+		<p>If a menu element's type attribute is in the context menu state, then the element represents the commands of a context menu, and the user can only interact with the commands if that context menu is activated. If a <code>menu</code> element's type attribute is in the toolbar state, then the element represents a list of active commands that the user can immediately interact with.</p>
+		<p>If a menu element's type attribute is in the list state, then the element either represents an unordered list of items (each represented by an <code>li</code> element), each of which represents a command that the user can perform or activate, or, if the element has no <code>li</code> element children, flow content describing available commands.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;menu type="toolbar"&gt;<br>
+        	&lt;command type="command" disabled label="Save" icon="icons/save.png" onclick="save()"&gt;<br>
+        	&lt;command type="command" disabled label="Publish" icon="icons/pub.png" onclick="publish()"&gt;<br>
+			&lt;/menu&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="meta">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>meta</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>meta</code> element represents various kinds of metadata that cannot be expressed using the <code>title</code>, <code>base</code>, <code>link</code>, <code>style</code>, and <code>script</code> elements.</p>
+		<p>The <code>meta</code> element can represent document-level metadata with the name attribute, pragma directives with the <code>http-equiv</code> attribute, and the file's character encoding declaration when an <code>HTML</code> document is serialized to string form (e.g. for transmission over the network or for disk storage) with the charset attribute.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;!DOCTYPE html&gt;<br>	
+			&lt;html lang="en-US"&gt;<br>
+			&lt;head&gt;<br>
+        	&lt;meta charset="UTF-8"&gt;<br>
+        	&lt;title&gt;My Super Awesome Noble Prize Worthy Title&lt;/title&gt;<br>
+        	&lt;meta name="robots" content="index,follow" /&gt;<br>
+        	&lt;link rel="stylesheet" href="css/style.css"&gt;<br>
+			&lt;/head&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> 
+
+<div data-role="page" id="meter">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>meter</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>When the <code>meter</code> binding applies to a <code>meter</code> element, the element is expected to render as an 'inline-block' box with a 'height' of '1em' and a 'width' of '5em', a 'vertical-align' of '-0.2em', and with its contents depicting a gauge.</p>
+		<p>When the element is wider than it is tall(or square), the depiction is expected to be of a horizontal gauge, with the minimum value on the right if the 'direction' property on this element has a computed value of '<code>rtl</code>', and on the left otherwise. When the element is taller than it is wide, it is expected to depict a vertical gauge, with the minimum value on the bottom.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			Your score is: <mark>&lt;meter&gt;</mark> 100 out of 100. <mark>&lt;/meter&gt;</mark>
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --><!-- end M page -->
+
+<div data-role="page" id="nav">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>nav</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>Represents navigation for a document. The <code>nav</code> element is a section containing links to other documents or to parts within the current document.</p>
+		<p>Not all groups of links on a page need to be in a <code>nav</code> element — only groups of primary navigation links. In particular, it is common for footers to have a list of links to various key parts of a site, but the footer element is more appropriate in such cases.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			<mark>&lt;nav&gt;</mark><br>
+        		&lt;ul&gt;<br>
+                        &lt;li&gt;Cats&lt;/li&gt;<br>
+                        &lt;li&gt;Dogs&lt;/li&gt;<br>
+                        &lt;li&gt;Lions&lt;/li&gt;<br>
+        		&lt;ul&gt;<br>
+			<mark>&lt;/nav&gt;</mark>
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> 
+
+<div data-role="page" id="noscript">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>noscript</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --><!-- end N page -->
+
+<div data-role="page" id="object">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>object</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>object</code> element can represent an external resource, which, depending on the type of the resource, will either be treated as an image, as a nested browsing context, or as an external resource to be processed by a plugin.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;object&gt;<br>
+			<br>
+        	&lt;param name="movie" value="http://www.youtube.com/v/XZ5TajZYW6Y?fs=1&amp;hl=en_GB"&gt;&lt;/param&gt;<br>
+        	&lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;<br>
+        	&lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt;<br>
+        	&lt;embed src="http://www.youtube.com/v/XZ5TajZYW6Y?fs=1&amp;hl=en_GB" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="390"&gt;&lt;/embed&gt;<br>
+			<br>
+			&lt;/object&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --> 
+
+<div data-role="page" id="ol">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>ol</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>ol</code> element represents a list of items, where the items have been intentionally ordered, such that changing the order would change the meaning of the list.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;ol&gt;<br>
+        		&lt;li&gt;Ordered List Item A&lt;/li&gt;<br>
+        		&lt;li&gt;Ordered List Item B&lt;/li&gt;<br>
+			&lt;/ol&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="noscript">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>noscript</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="noscript">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>noscript</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page -->
+
+<div data-role="page" id="noscript">
+	<header data-role="header">
+		<div class="custom_header">
+		<h1>noscript</h1>
+		</div>
+		<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+	</header>
+
+	<div data-role="content">
+		<p>The <code>noscript</code> element represents nothing if scripting is enabled, and represents its children if scripting is disabled. It is used to present different markup to user agents that support scripting and those that don't support scripting, by affecting how the document is parsed.</p>
+	</div>
+	
+	<!-- button -->
+	<br>
+	<div align="center">
+		<a href="#popupPaded" data-rel="popup" data-role="button" data-inline="true">See the code in action.</a>
+	</div>
+	<div data-role="popup" id="popupPaded" class="ui-content">
+		<code>
+			&lt;noscript&gt;Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript&lt;/noscript&gt;&lt;noscript&gt;&lt;link rel="stylesheet" href="no-js.css" /&gt;&lt;/noscript&gt;
+		</code>
+	</div>
+	<!-- end button -->
+	
+	<footer data-role="footer" data-position="fixed">
+		<nav data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home">Home</a></li>
+				<li><a href="#" data-icon="gear">Website</a></li>
+				<li><a href="#" data-icon="info">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div><!-- page --><!-- end O page -->
+
+
+</body>
+</html>
